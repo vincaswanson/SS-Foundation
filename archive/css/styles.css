@@ -2,6 +2,7 @@
     font-family: Heartwell italic;
 	src:url(../fonts/Heartwell%20Italic.woff);
 }
+
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -77,8 +78,9 @@ img {
 	z-index:999;
 	cursor:pointer;
 }
+*/
 .cycle-prev{left: 10%; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
-.cycle-next{right: 10%; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}*/
+.cycle-next{right: 10%; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
 .cycle-pager{
 	width:100%;
 	text-align:center;
