@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Heartwell italic;
+	src:url(../fonts/Heartwell%20Italic.woff);
+}
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+background-color: #39849b;
+color: #ffffff;
+font: normal 100% Cambria, Georgia, serif;
+}
+.full-container {
+  display:block;
+  width:100%;
+  margin: 0 auto;
+  background-color: hsl(193, 58%, 39%);
+  background-image: repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(69,158,182,.2) 2px, rgba(69,158,182,.2) 3px, transparent 3px, transparent 5px, rgba(69,158,182,.2) 5px);
+}
+.container {
+  margin: 0 auto;
+  max-width: 48rem;
+  width: 90%;
+  padding-top:2%;
+}
+h1 { 
+font-size:.75em;
+text-align:center;
+font-family: 'Open Sans', Arial, sans-serif;
+font-weight:400;
+color: #ffffff;
+}
+h1 a {
+font-size:.75em;
+color: #ffffff;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: none;
+}
+.center {text-align:center;}
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+	outline: 0;
+}
+main {
+	background: rgba(248, 162, 73, .75);
+	margin-top:25%;
+	text-align:center;
+	padding-top:1%;
+	padding-bottom:1%;
+	}
+.caption {
+	font-size:2em; 
+	font-family:Heartwell italic, Georgia, serif; 
+	font-style:italic;
+	color:#ffffff;
+}

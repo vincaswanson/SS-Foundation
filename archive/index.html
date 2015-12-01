@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shaw Scott Foundation</title>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle2.caption2.js"></script>
+<link rel="stylesheet" type="text/css" href="css/styles.css" media="screen, handheld" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+<style type="text/css">
+/* Small screens (default) */
+html { font-size: 100%; }
+
+/* Medium screens (640px) */
+@media (min-width: 40rem) {
+  html { font-size: 112%; }
+}
+
+/* Large screens (1024px) */
+@media (min-width: 64rem) {
+  html { font-size: 120%; }
+}
+
+/* Small screens (default) */
+html { font-size: 100%; }
+
+/* Medium screens (640px) */
+@media (min-width: 40rem) {
+  html { font-size: 112%; }
+}
+
+/* Large screens (1024px) */
+@media (min-width: 64rem) {
+  html { font-size: 120%; }
+}
+
+@media (min-width: 40rem) {
+  .column {
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .column.full { width: 100%; }
+  .column.third { width: 33.3%;}
+  .column.half { width: 50%; }
+  .column.fourth { width: 25%; }
+  .column.two-third { width: 66.7%; }
+  .column.flow-opposite { float: right; }
+  .clear:before,
+  .clear:after {content: " ";display: table;}
+  .clear:after {clear: both;}
+  .clear {*zoom: 1;} 
+  .column.flow-opposite { float: right; }
+  h1 {padding-top:10%;}
+  .mail-icon { padding-top:5%; width:20%;}
+  .SS-logo {width:70%;}
+  .cycle-slideshow img {width: 100%; max-width:100%; height:auto;}
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+<div class="header">
+<div class="clear">
+<div class="column two-third flow-opposite">
+  <div class="column half center">
+    <img src="img/SS-Foundation-logo.gif" class="SS-logo" />
+   </div>
+   <div class="column half center">
+    <img src="img/mail-icon.gif" class="mail-icon" />
+  </div>
+  </div>
+</div>
+</div>
+<!-- image slider -->
+<div class="cycle-slideshow" data-cycle-caption-plugin="caption2">
+<!--<span class="cycle-prev">&#9001;</span>
+<span class="cycle-next">&#9002;</span> -->
+    <div class="cycle-overlay"></div>
+<span class="cycle-pager"></span>
+    <img src="img/kids_01a.jpg" alt="" data-cycle-title="find the love<br /><i style='padding-left:20%;'>share the love</i>" data-cycle-desc="<i style='font-family:sans-serif; font-size:.5em;'>description here</i>">
+    <img src="img/kids_02a.jpg" alt="" data-cycle-title="find the love<br /><i style='padding-left:20%;'>share the love</i>" data-cycle-desc="">
+    <img src="img/kids_03a.jpg" alt="" data-cycle-title="find the love<br /><i style='padding-left:20%;'>share the love</i>" data-cycle-desc="">
+</div>
+<!--/image slider -->
+</div>
+</body>
+</html>

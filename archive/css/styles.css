@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Heartwell italic;
+	src:url(../fonts/Heartwell%20Italic.woff);
+}
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+background-color: #39849b;
+color: #ffffff;
+font: normal 1em 'Open Sans', Arial, sans-serif;
+}
+.container {
+	display:block;
+	width:100%;
+	background-color: hsl(193, 58%, 39%);
+	background-image: repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(69,158,182,.2) 2px, rgba(69,158,182,.2) 3px, transparent 3px, transparent 5px, rgba(69,158,182,.2) 5px);
+	margin: 0 auto;
+	padding-top:2%;
+	overflow:hidden;
+}
+h1 { 
+font-size:.75em;
+font-weight:400;
+color: #ffffff;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: none;
+padding-bottom:5%;
+padding-top:2%;
+}
+.center {text-align:center;}
+img {
+	width:100%;
+	max-width: 100%;
+	height: auto !important; 
+	border: 0;
+	outline: 0;
+}
+.mail-icon { padding-top:2%; width:10%;}
+.SS-logo {width:30%;}
+.caption {
+	font-size:2em; 
+	font-family:Heartwell italic, Georgia, serif; 	font-style:italic;
+	color:#ffffff;
+	line-height:1em;
+    padding-top:2%; 
+	padding-bottom:2%;
+	width:100%;}
+	
+
+/* slider styles */
+.cycle-slideshow {
+	width: 100%; 
+	display:block;
+	position: relative;
+	margin: 0 auto;
+	overflow:hidden;
+}
+.cycle-slideshow img {
+	width:650px;
+	max-width: 650px;
+	height: auto !important; 
+	border: 0;
+	outline: 0;
+}
+/*.cycle-prev, .cycle-next {
+	font-size: 200%;
+	color: #f6cfaa;
+	display: block;
+	top: 40%;
+	position: absolute;
+	z-index:999;
+	cursor:pointer;
+}
+.cycle-prev{left: 10%; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.cycle-next{right: 10%; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}*/
+.cycle-pager{
+	width:100%;
+	text-align:center;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	z-index:999;
+}
+.cycle-overlay{
+	background-color: hsla(31, 93%, 63%, 0.75);
+	text-align:center;
+	font-size:2.4em;
+	line-height:1.5em;
+	font-family:Heartwell italic, Georgia, serif;
+	font-style:italic;
+	color:#ffffff;
+	position:absolute;
+	width:100%;
+	top:30%;
+	z-index:999;
+	line-height:.95em;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+.cycle-pager span {
+	white-space: nowrap;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	border: solid 1px #fff;
+	border-radius:50%;
+	margin: 0 10px;	
+}
+.cycle-pager .cycle-pager-active {
+	background-color:#fff;
+}

@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="css/normalize.css">
+<!--<link rel="stylesheet" href="css/grid.css">-->
+<link rel="stylesheet" type="text/css" href="css/styles-simple.css" media="screen, handheld" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<style type="text/css">
+/* Small screens (default) */
+html { font-size: 100%; }
+
+/* Medium screens (640px) */
+@media (min-width: 40rem) {
+  html { font-size: 112%; }
+}
+
+/* Large screens (1024px) */
+@media (min-width: 64rem) {
+  html { font-size: 120%; }
+}
+
+/* Small screens (default) */
+html { font-size: 100%; }
+
+/* Medium screens (640px) */
+@media (min-width: 40rem) {
+  html { font-size: 112%; }
+}
+
+/* Large screens (1024px) */
+@media (min-width: 64rem) {
+  html { font-size: 120%; }
+}
+
+@media (min-width: 40rem) {
+  .column {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .column.full { width: 100%; }
+  .column.two-thirds { width: 66.7%; }
+  .column.half { width: 50%; }
+  .column.third { width: 33.3%; }
+  .column.fourth { width: 25%; }
+  .column.flow-opposite { float: right; } 
+  .clearfix:before,
+  .clearfix:after {content: " ";display: table;}
+  .clearfix:after {clear: both;}
+  .clearfix {*zoom: 1;} 
+  .column.flow-opposite { float: right; }
+}
+
+</style>
+
+</head>
+
+<body>
+<div class="full-container">
+<div class="container">
+	<div class="row clearfix">
+    <div class="column third">
+      <h1><a href="">shawscott.com</a></h1>
+    </div>
+    <div class="column two-thirds">
+      <div class="column half center">
+      <img src="img/SS-Foundation-logo.gif" />
+      </div>
+      <div class="column half">
+   	  <h1><a href=""><img src="img/mail-icon.gif" /></a></h1>
+      </div>
+    </div>
+  </div>  
+</div>
+</div>
+<div class="fotorama" data-loop="true" data-transition="crossfade" data-swipe="true" data-nav="false" data-trackpad="true">
+	<div data-img="http://www.shawscott.com//sandBox/SSFoundation/img/kids_01.jpg">
+    	<main>
+        <blockquote>
+        	<footer><cite class="caption">Find the Love<br /><span style="padding-left:20%;">Share the Love</span>
+            </cite>
+            </footer>
+        </blockquote>
+    	</main>
+    </div>
+    <!--filter: alpha(opacity=60); add this to styles:/* For IE8 and earlier */-->
+    <div data-img="http://www.shawscott.com//sandBox/SSFoundation/img/kids_02.jpg">
+    	<main>
+        <blockquote>
+        	<footer><cite class="caption">Share the Love</cite></footer>
+        </blockquote>
+    	</main>
+    </div>
+    <div data-img="http://www.shawscott.com//sandBox/SSFoundation/img/kids_03.jpg">
+    	<main>
+        <blockquote>
+        	<footer><cite class="caption">Find the Love<br /><span style="padding-left:10%;">Share the Love</span>
+            </cite>
+            </footer>
+        </blockquote>
+        </main>
+    </div>
+</div>
+</body>
+</html>
