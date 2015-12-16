@@ -23,7 +23,7 @@ body{
 	font-weight:300;
 	background-color: #39849b;
 	color: #ffffff;
-	font: normal 1em 'Open Sans', Arial, sans-serif;
+	font-family: normal 1em 'Open Sans', Arial, sans-serif;
 	background-image:url(img/bw01.jpg);		
 	background-image:url(img/bw02.jpg);
 	background-image:url(img/bw03.jpg);
@@ -56,7 +56,6 @@ h1{
 	line-height:1em;
 	padding-bottom:4%;
 	padding-left:2%;
-	padding-top:10px;
 }
 p {margin:3% 2%; padding: 0 4%;}
 .container{
@@ -78,7 +77,7 @@ p {margin:3% 2%; padding: 0 4%;}
 .logo {
 	display:inline; 
 	width:250px; 
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 .cta {width: 100%;}
 .cta p{ 

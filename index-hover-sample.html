@@ -28,11 +28,12 @@
     <p>We are excited to announce the launch of the the Shaw + Scott Foundation, created to empower the digital marketing efforts of nonprofits dedicated to helping children in&nbsp;need.</p>
     <p>The foundation will provide marketing grants to enable selected organizations to focus on what they do best, while we do what we do best—providing innovative, results-driven digital&nbsp;marketing.</p>
     <div class="cta">
-    <p><a href="http://www.shawscott.com" target="_blank">FIND THE LOVE</a></p> 
+    <a href="http://www.shawscott.com" target="_blank"><p><span id="btn-01">FIND THE LOVE</span></p></a>
 	</div> 
     <div class="cta">
-    <p><a href="mailto:sharethelove@shawscott.com">SHARE THE LOVE</a></p> 
-	</div> 
+    <a href="mailto:sharethelove@shawscott.com" target="_blank"><p id="btn-02">SHARE THE LOVE</p></a>
+	</div>
+    
 </div>
 </div>
 </div>
@@ -41,7 +42,24 @@
 (function(){function e(){a++;a%=c.length;$(document.body).css("background-image","url("+c[a]+")")}function f(b){for(i=0;i<b.length;i++)d[i]=new Image,d[i].src=b[i]}function g(){setInterval(e,5E3);f(c);var b="#bfeffa #d5d58f #febbcc #8fcd9a #f3b2c3 #f8a249 #ffffff".split(" ");$(".fixed-footer").on("click",function(){var a=b.shift();b.push(a);$(".fixed-footer").css("color",a);$(".fixed-footer a").css("color",a)})}var a=0,c=["img/bw01.jpg","img/bw02.jpg","img/bw03.jpg"],d=[];
 $(document).ready(function(){g()})})();
 </script>
-<script src="https://use.typekit.net/jqc3jua.js" type="text/javascript"></script>
-<script type="text/javascript">try{Typekit.load({ async: true });}catch(e){}</script>
+<!-- link swap on hover -->
+<script type="text/javascript">
+$(document).ready(function(e) {
+        $('#btn-01').hover(function(){
+				$(this).fadeOut(500);
+				$main_text=$(this).text();
+				$(this).text("VISIT WEBSITE");
+				$(this).fadeIn(500);
+			},function(){
+				$(this).text($main_text);
+				});
+        $('#btn-02').hover(function(){
+				$main_text=$(this).text();
+				$(this).text("CONTACT US");
+			},function(){
+				$(this).text($main_text);
+				});
+});
+</script>
 </body>
 </html>
